@@ -14,7 +14,7 @@ A simple Python program that fetches **today's prayer times** for cities in Paki
 
 ## API used
 
-`GET https://api.aladhan.com/v1/timingsByCity/{DD-MM-YYYY}?city=Lahore&country=Pakistan&method=1&school=1`
+`GET https://api.aladhan.com/v1/timingsByCity/{DD-MM-YYYY}?city=Karachi&country=Pakistan&method=1&school=1`
 
 No API key is required.
 
@@ -23,8 +23,8 @@ No API key is required.
 1. Install [Python 3.9+](https://www.python.org/downloads/).
 2. Clone this repository:
    ```
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/Muhammaduzairshaikh/pakistan_prayer_times.py.git
+   cd pakistan_prayer_times.py
    ```
 3. (Optional) Create a virtual environment:
    ```
@@ -46,20 +46,18 @@ Enter a city number from the list (for example `2` for Lahore) or type a city na
 
 ## Sample output
 
-> Replace this with the real output from your own run.
-
 ```
-Lahore - Wednesday, 11 November 2026  (abhi: 04:15 PM)
+Karachi - Thursday, 12 November 2026  (abhi: 12:48 AM)
 
-    Fajr     05:20 AM
-    Sunrise  06:42 AM
-    Dhuhr    11:55 AM
- -> Asr      03:45 PM
-    Maghrib  05:08 PM
-    Isha     06:28 PM
+ -> Fajr     05:27 AM
+    Sunrise  06:46 AM
+    Dhuhr    12:16 PM
+    Asr      04:10 PM
+    Maghrib  05:46 PM
+    Isha     07:04 PM
 
-Agli namaz: Asr (03:45 PM)
-Baqi time : 0 ghante 30 minute
+Agli namaz: Fajr (05:27 AM)
+Baqi time : 4 ghante 38 minute
 ```
 
 ## Project structure
@@ -77,4 +75,4 @@ Prayer times may differ slightly from your local mosque, as mosques often adjust
 
 ## Author
 
-<Your Name>
+Muhammad Uzair Shaikh
